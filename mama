@@ -1,5 +1,5 @@
 "This has cv2"
-Basically this creates shapes where movement is ocurring,
+# Basically this creates shapes where movement is ocurring,
 Codeline:
 import cv2
 cam = cv2.VideoCapture(0)
@@ -16,4 +16,15 @@ while cam.isOpened():
     if cv2.waitKey(10) == ord('q'):
         break
     cv2.imshow('You enter your window name here', frame1)
-'PRESS Q TO END WHILE TRUE'
+'PRESS "Q" or TO END WHILE TRUE':
+      --> if cv2.waitKey(10) == ord('(THE CHARACTER YOU WANT TO USE TO BREAK THE LOOP'):
+                break
+
+Understand what I have done in the...
+
+First few lines-
+--> import cv2- This is obvious, imports the cv2 package
+--> cam = cv2.VideoCapture(0)- I am defining a variable here, "cam" which is telling the computer to open the webcam no. 0 i.e. the first one, to capture the exact picture in video.
+--> while cam.isOpened():- As you can see, I have made a loop.
+
+Now that I have imported everything, you can see for yourself what all of this means.
